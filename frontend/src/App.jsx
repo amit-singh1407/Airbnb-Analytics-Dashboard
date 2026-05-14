@@ -5,7 +5,7 @@ import DashboardPage from './pages/DashboardPage';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Airbnb-Analytics-Dashboard">
       <DashboardLayout>
         <Routes>
           <Route path="/" element={<DashboardPage />} />
