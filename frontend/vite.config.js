@@ -5,5 +5,5 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "https://github.com/amit-singh1407/Airbnb-Analytics-Dashboard",
+  base: "/Airbnb-Analytics-Dashboard/",
 })
